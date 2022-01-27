@@ -11,8 +11,8 @@ int main()
         scanf("%d %d",&at[i],&bt[i]);
         temp[i]=at[i];
     }
-    minat=at[n-1];
-    minpos=n-1;
+    minat=99;
+    minpos=-1;
     while(count!=n)
     {
         for(i=0;i<n;i++)
